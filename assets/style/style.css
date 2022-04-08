@@ -18,7 +18,6 @@ body {
 a {
     color: var(--color1);
     cursor: pointer;
-
 }
 a:hover {
     color: var(--color2);
@@ -72,7 +71,7 @@ header nav ul li a {
 }
 .siteHeader-h1 {
     font-weight:bolder;
-    font-size: 6em;
+    font-size: 7em;
 }
 .siteHeader-h1,
 .siteHeader-h2 {
@@ -99,6 +98,7 @@ aside ul li i {
 aside ul li i:hover {
     color: var(--color2);
 }
+/* ******************* MAIN SECTION INDEX ******************* */
 /* ******************* FOOTER ******************* */
 footer {
     display: flex;
