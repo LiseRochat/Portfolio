@@ -8,7 +8,7 @@
     --color1 : rgb(17, 17, 17);
     --color2: #33a73f;
     --color3: #9bdca2;
-    --color4: #d7f1da;
+    --color4: #f1f1f1;
 }
 /* ******************* Généralités ******************* */
 body {
@@ -26,6 +26,13 @@ a:hover {
 }
 header {
     height: 100vh;
+}
+p::selection,
+a::selection,
+h1::selection,
+h2::selection {
+    color:var(--color4);
+    background: var(--color2);
 }
 /* ******************* NAV BAR ******************* */
 header nav {
