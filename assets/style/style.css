@@ -10,3 +10,15 @@
     --color3: #9bdca2;
     --color4: #d7f1da;
 }
+/* ******************* Généralités ******************* */
+body {
+    margin: 0 10%;
+    font-family: "SourceSansPro";
+}
+a {
+    color: var(--color1);
+    cursor: pointer;
+}
+a:hover {
+    color: var(--color2);
+}
