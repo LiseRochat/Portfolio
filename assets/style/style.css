@@ -70,3 +70,18 @@ aside ul li i {
 aside ul li i:hover {
     color: var(--color2);
 }
+/* ******************* H1 & H2 ******************* */
+.siteMain {
+    margin: 20vh auto;
+    width: 100%;
+}
+.siteMain-h1 {
+    font-weight:bolder;
+    font-size: 6em;
+}
+.siteMain-h1,
+.siteMain-h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
