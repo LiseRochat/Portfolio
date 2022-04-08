@@ -22,6 +22,9 @@ a {
 a:hover {
     color: var(--color2);
 }
+header {
+    height: 100vh;
+}
 /* ******************* NAV BAR ******************* */
 header nav {
     height: 10vh;
@@ -51,6 +54,21 @@ header nav ul li a {
     font-size: 1.3em;
     letter-spacing: 0.2em; 
 }
+/* ******************* H1 & H2 ******************* */
+.siteHeader {
+    margin: 20vh auto;
+    width: 100%;
+}
+.siteHeader-h1 {
+    font-weight:bolder;
+    font-size: 6em;
+}
+.siteHeader-h1,
+.siteHeader-h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
 /* ******************* ASIDE RESEAUX SOCIAUX ******************* */
 aside {
     position: fixed;
@@ -70,21 +88,7 @@ aside ul li i {
 aside ul li i:hover {
     color: var(--color2);
 }
-/* ******************* H1 & H2 ******************* */
-.siteMain {
-    margin: 20vh auto;
-    width: 100%;
-}
-.siteMain-h1 {
-    font-weight:bolder;
-    font-size: 6em;
-}
-.siteMain-h1,
-.siteMain-h2 {
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    text-align: center;
-}
+
 /* ******************* FOOTER ******************* */
 footer {
     display: flex;
