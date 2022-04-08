@@ -51,3 +51,22 @@ header nav ul li a {
     font-size: 1.3em;
     letter-spacing: 0.2em; 
 }
+/* ******************* ASIDE RESEAUX SOCIAUX ******************* */
+aside {
+    position: fixed;
+    top:30%;
+    right: 0;
+    margin-right: 2%;
+}
+aside ul li {
+    margin: 10px 0px;
+    font-size: 2em;
+    text-align: center;
+}
+aside ul li i {
+    color: var(--color1);
+
+}
+aside ul li i:hover {
+    color: var(--color2);
+}
