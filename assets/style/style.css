@@ -99,7 +99,6 @@ aside ul li i {
 aside ul li i:hover {
     color: var(--color2);
 }
-
 /* ******************* FOOTER ******************* */
 footer {
     display: flex;
