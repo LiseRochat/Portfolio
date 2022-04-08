@@ -39,9 +39,12 @@ li::selection {
     color:var(--color4);
     background: var(--color2);
 }
-span::selection {
+strong::selection {
     color:var(--color1);
     background: var(--color3);
+}
+i {
+    color: var(--color2);
 }
 /* ******************* NAV BAR ******************* */
 header nav {
@@ -150,9 +153,9 @@ section {
     grid-template-columns: 20% 20% 60%;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-        "div1 div2 new"
-        "div3 div4 me"
-        "div5 div6 me";
+        "div1 div2 news"
+        "div3 div4 numb"
+        "div5 div6 etc";
     gap: 10px;
 }
 .sectionDev {
@@ -174,12 +177,31 @@ section {
     grid-area: div6;
 }
 .sectionNews {
-    grid-area: new;
+    grid-area: news;
+}
+.sectionVacancies {
+    grid-area: numb;
+}
+.sectionETC {
+    grid-area: etc;
+
 }
 .sectionMain-h3 {
     font-size: 1.2em;
     letter-spacing: 0.1em;
-    color: var(--color2)
+    
+}
+.h3-color-green {
+    color: var(--color2);
+}
+.h3-weight-bold {
+    font-weight: bold;
+}
+.sectionMain-fontsize {
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--color2);
 }
 /* ******************* FOOTER ******************* */
 footer {
