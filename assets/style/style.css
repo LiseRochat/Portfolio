@@ -85,3 +85,20 @@ aside ul li i:hover {
     letter-spacing: 0.2em;
     text-align: center;
 }
+/* ******************* FOOTER ******************* */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+footer ul li {
+    padding: 20px 40px;
+}
