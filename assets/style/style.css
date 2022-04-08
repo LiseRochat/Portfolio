@@ -10,6 +10,7 @@
     --color3: #9bdca2;
     --color4: #f1f1f1;
     --color5: white;
+    --size: 300px;
 }
 /* ******************* Généralités ******************* */
 body {
@@ -30,7 +31,9 @@ header {
 p::selection,
 a::selection,
 h1::selection,
-h2::selection {
+h2::selection,
+h3::selection,
+li::selection {
     color:var(--color4);
     background: var(--color2);
 }
@@ -86,7 +89,6 @@ header nav ul li a {
 }
 .siteHeader-h1,
 .siteHeader-h2 {
-    text-transform: uppercase;
     letter-spacing: 0.2em;
     text-align: center;
 }
@@ -130,6 +132,48 @@ section {
     text-align: justify;
     line-height: 1.3em;
     font-size: 1.2em;
+}
+/* ******************* MAIN SECTION QUI SUIS JE ******************* */
+.skillsTitle {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 25px;
+}
+.nameLanguage {
+    text-transform: uppercase;
+}
+.sectionMainSkills {
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "div1 div2 img"
+        "div3 div4 img"
+        "div5 div6 img";
+    gap: 10px;
+}
+.sectionDev {
+    grid-area: div1;
+}
+.sectionLanguage {
+    grid-area: div2;
+}
+.sectionFramework {
+    grid-area: div3;
+}
+.sectionCMS {
+    grid-area: div4;
+}
+.sectionDesign {
+    grid-area: div5;
+}
+.sectionProject {
+    grid-area: div6;
+}
+.sectionMain-h3 {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    color: var(--color2)
 }
 /* ******************* FOOTER ******************* */
 footer {
