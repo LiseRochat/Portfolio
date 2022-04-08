@@ -9,6 +9,7 @@
     --color2: #33a73f;
     --color3: #9bdca2;
     --color4: #f1f1f1;
+    --color5: white;
 }
 /* ******************* Généralités ******************* */
 body {
@@ -33,19 +34,26 @@ h2::selection {
     color:var(--color4);
     background: var(--color2);
 }
+span::selection {
+    color:var(--color1);
+    background: var(--color3);
+}
 /* ******************* NAV BAR ******************* */
 header nav {
     height: 10vh;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
-    max-width: 1200px;
+    position: fixed;
+    background: var(--color5);
+    padding: 0 300px;
 }
 header nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 100%;;
+    width: 100%;
+    margin: 0 auto;
     position: relative;
 }
 header nav ul li {
@@ -66,12 +74,15 @@ header nav ul li a {
 }
 /* ******************* H1 & H2 ******************* */
 .siteHeader {
-    margin: 20vh auto;
-    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .siteHeader-h1 {
     font-weight:bolder;
-    font-size: 7em;
+    font-size: 10em;
 }
 .siteHeader-h1,
 .siteHeader-h2 {
@@ -82,7 +93,7 @@ header nav ul li a {
 /* ******************* ASIDE RESEAUX SOCIAUX ******************* */
 aside {
     position: fixed;
-    top:30%;
+    top:40%;
     right: 0;
     margin-right: 2%;
 }
@@ -93,12 +104,33 @@ aside ul li {
 }
 aside ul li i {
     color: var(--color1);
-
 }
 aside ul li i:hover {
     color: var(--color2);
 }
 /* ******************* MAIN SECTION INDEX ******************* */
+section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sectionMain {
+    width: 60%;
+    margin: 0px auto;
+    line-height: 1.3em;
+}
+.sectionMain-h2 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 50px 0;
+    letter-spacing: 0.1em;
+}
+.sectionMainp {
+    text-align: justify;
+    line-height: 1.3em;
+    font-size: 1.2em;
+}
 /* ******************* FOOTER ******************* */
 footer {
     display: flex;
