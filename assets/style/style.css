@@ -2,3 +2,11 @@
 @font-face {
     font-family: "SourceSansPro";
     src: url(../font/SourceSansPro-Light.ttf);
+}
+/* ******************* Variables ******************* */
+:root {
+    --color1 : rgb(17, 17, 17);
+    --color2: #33a73f;
+    --color3: #9bdca2;
+    --color4: #d7f1da;
+}
