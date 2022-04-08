@@ -22,3 +22,32 @@ a {
 a:hover {
     color: var(--color2);
 }
+/* ******************* NAV BAR ******************* */
+header nav {
+    height: 10vh;
+    width: 60%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;;
+    position: relative;
+}
+header nav ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid transparent;
+}
+header nav ul li:hover {
+    border-top: 2px solid var(--color2);
+}
+header nav ul li a {
+    font-size: 1.3em;
+    letter-spacing: 0.2em; 
+}
