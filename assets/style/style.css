@@ -141,15 +141,16 @@ section {
 }
 .nameLanguage {
     text-transform: uppercase;
+    font-weight: bold;
 }
-.sectionMainSkills {
+.sectionMainSkills-grid {
     display: grid;
     grid-template-columns: 20% 20% 60%;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-        "div1 div2 img"
-        "div3 div4 img"
-        "div5 div6 img";
+        "div1 div2 new"
+        "div3 div4 me"
+        "div5 div6 me";
     gap: 10px;
 }
 .sectionDev {
@@ -169,6 +170,9 @@ section {
 }
 .sectionProject {
     grid-area: div6;
+}
+.sectionNews {
+    grid-area: new;
 }
 .sectionMain-h3 {
     font-size: 1.2em;
