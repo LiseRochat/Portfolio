@@ -13,22 +13,21 @@
 }
 /* ******************* Généralités ******************* */
 body{
-    background: var(--color4)
-}
-#page {
-    margin: 0 10%;
+    background: var(--color4);
     font-family: "SourceSansPro";
-}
-a {
-    color: var(--color1);
-    cursor: pointer;
-}
-a:hover {
-    color: var(--color2);
-    transition: 0.2s;
 }
 header {
     height: 100vh;
+}
+a,
+i {
+    color: var(--color1);
+    cursor: pointer;
+}
+a:hover,
+i:hover {
+    color: var(--color2);
+    transition: 0.2s;
 }
 p::selection,
 a::selection,
@@ -43,101 +42,102 @@ strong::selection {
     color:var(--color1);
     background: var(--color3);
 }
-i {
-    color: var(--color2);
-}
 /* ******************* NAV BAR ******************* */
 header nav {
     height: 10vh;
-    width: 80%;
-    margin: 0 auto;
-    position: fixed;
-    background: var(--color4);
-    padding: 0 300px;
 }
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 100%;
+    height: 10vh;
+    position: fixed;
     width: 100%;
-    margin: 0 auto;
-    position: relative;
-}
-header nav ul li {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 2px solid transparent;
-    transition: 0.2s;
-}
-header nav ul li:hover {
-    border-top: 2px solid var(--color2);
-    transition: 0.2s;
+    background: var(--color4);
 }
 header nav ul li a {
-    font-size: 1.3em;
-    letter-spacing: 0.2em; 
+    padding: 30px;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
 }
 /* ******************* H1 & H2 ******************* */
 .siteHeader {
-    height:100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .siteHeader-h1 {
-    font-weight:bolder;
-    font-size: 10em;
-}
-.siteHeader-h1,
-.siteHeader-h2 {
-    letter-spacing: 0.2em;
+    font-size: 10rem;
+    letter-spacing: 0.1em;
     text-align: center;
+}
+.siteHeader-h2 {
+    font-size: 2rem;
+    color: var(--color2);
 }
 /* ******************* ASIDE RESEAUX SOCIAUX ******************* */
 aside {
     position: fixed;
-    top:40%;
+    top:50%;
     right: 0;
-    margin-right: 2%;
+    margin: 0 1%;
 }
 aside ul li {
-    margin: 10px 0px;
     font-size: 2em;
     text-align: center;
 }
-aside ul li i {
-    color: var(--color1);
-}
-aside ul li i:hover {
-    color: var(--color2);
-}
 /* ******************* MAIN SECTION INDEX ******************* */
-section {
-    height: 80vh;
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+.index-height,
+.sectionAbout-height {
+    height: 80vh;
+}
 .sectionMain {
-    width: 60%;
-    margin: 0px auto;
-    line-height: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    margin: 5vh 10%;
 }
 .sectionMain-h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
-    padding: 50px 0;
     letter-spacing: 0.1em;
+    line-height: 2em;
+}
+.sectionMain i {
+    color: var(--color2);
 }
 .sectionMainp {
     text-align: justify;
-    line-height: 1.3em;
     font-size: 1.2em;
 }
+.sectionMainp-margin {
+    margin-bottom: 3%;
+}
+.sectionMain-h3 {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+.h3-color-green {
+    color: var(--color2);
+}
+.h3-weight-bold {
+    font-weight: bold;
+}
+.sectionMain-fontsize {
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--color2);
+}
+
 /* ******************* MAIN SECTION QUI SUIS JE ******************* */
 .skillsTitle {
     display: grid;
@@ -150,7 +150,7 @@ section {
 }
 .sectionMainSkills-grid {
     display: grid;
-    grid-template-columns: 20% 20% 60%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
         "div1 div2 news"
@@ -186,29 +186,14 @@ section {
     grid-area: etc;
 
 }
-.sectionMain-h3 {
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-}
-.h3-color-green {
-    color: var(--color2);
-}
-.h3-weight-bold {
-    font-weight: bold;
-}
-.sectionMain-fontsize {
-    font-size: 4em;
-    font-weight: bolder;
-    text-align: center;
-    color: var(--color2);
-}
 /* ******************* FOOTER ******************* */
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    height: 10vh;
+    margin: 50px 0;
 }
 footer ul {
     display: flex;
@@ -219,4 +204,6 @@ footer ul {
 footer ul li {
     padding: 20px 40px;
 }
+
+
 /* ******************* MEDIA QUERYS ******************* */
