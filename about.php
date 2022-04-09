@@ -1,25 +1,26 @@
 <?php
-    require_once("templates/head.php");
+require_once("templates/head.php");
 ?>
+
 <body>
-<?php
+    <?php
     require_once("templates/header.php");
-?>
-        <div class="siteHeader">
-            <h1 class="siteHeader-h1">Qui-Suis Je ?</h1>
-            <h2 class="siteHeader-h2">Rochat Lise</h2>
-        </div>
+    ?>
+    <div class="siteHeader">
+        <h1 class="siteHeader-h1">Qui-Suis Je ?</h1>
+        <h2 class="siteHeader-h2">Rochat Lise</h2>
+    </div>
     </header>
     <main>
-<?php
+        <?php
         require_once("templates/aside.php");
-?>
-        <section class="sectionAbout">
-            <article class="sectionMain sectionAbout-height">
+        ?>
+        <div class="sectionAbout">
+            <div class="sectionMain sectionAbout-height">
                 <p class="sectionMainp sectionMainp-margin"> <strong>Développeuse Front</strong> ? <strong>Développeuse Back</strong> ? <strong>Développeuse Full Stack</strong> ? De nombreuses spécialités pour un même corps de métier. Pour le moment, on prendra le terme de <strong>développeuse junior.</strong> <br> Novice dans le domaine du développement et pourtant bien passionnée par le métier !</p>
                 <p class="sectionMainp sectionMainp-margin">La passion, parlons-en justement. Un terme bien abstrait pour les non-passionnés. Jusqu'il y a un an, je pensais n'avoir aucune passions mais cela c'était bien évidemment avant de découvrir le développement ! Etre passionné par le développement, c'est pour moi vouloir apprendre d'avantage, acquérir toujours plus de compétences. Et cela tombe bien, dans le domaine de la technologie rien n'est stable ! Tout évolue tout le temps ! Me voilà occupée pour l'éternité.
                 <p class="sectionMainp sectionMainp-margin"> D'autres passions ? <br>Non je mange <strong class="nameLanguage">php</strong>, j'assaisonne avec <strong class="nameLanguage">symfoni</strong>. Je bois <strong class="nameLanguage">html</strong>, <strong class="nameLanguage">css</strong> et le vendredi soir tout est permis avec du <strong class="nameLanguage">javascipt</strong> ! Croyez moi je suis très gourmande. </p>
-            </article>
+            </div>
             <article class="sectionMain sectionAbout-height">
                 <h2 class="sectionMain-h2">Actualités</h2>
                 <div class="sectionNews">
@@ -86,8 +87,8 @@
                     </div>
                 </div>
             </article>
-        </section>
+        </div>
     </main>
-<?php
+    <?php
     require_once("templates/footer.php");
-?>   
+    ?>
