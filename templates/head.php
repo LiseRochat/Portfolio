@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROCHAT Lise | Développeuse web et web mobile | Alternance 2022-2023 Développement</title>
+    <link rel="shortcut icon" href="assets/img/logo.png">
     <meta property="og:title" content="ROCHAT Lise | Développeuse web | Recherche Alternance 2022-2023" />
     <meta property="og:url" content="https://liserochat.com" />
     <meta property="og:image" content="https://liserochat.com/assets/img/homepage.png" />
