@@ -14,7 +14,7 @@
 /* ******************* Généralités ******************* */
 body{
     background: var(--color4);
-    font-family: "SourceSansPro";
+    font-family: "SourceSansPro", sans-serif;
     width: 100%;
 }
 header {
