@@ -12,9 +12,9 @@ require_once("templates/head.php");
     </div>
     </header>
     <main>
-        <?php
+<?php
         require_once("templates/aside.php");
-        ?>
+?>
         <div class="sectionAbout">
             <div class="sectionMain sectionAbout-height">
                 <p class="sectionMainp sectionMainp-margin"> <strong>Développeuse Front</strong> ? <strong>Développeuse Back</strong> ? <strong>Développeuse Full Stack</strong> ? De nombreuses spécialités pour un même corps de métier. Pour le moment, on prendra le terme de <strong>développeuse junior.</strong> <br> Novice dans le domaine du développement et pourtant bien passionnée par le métier !</p>

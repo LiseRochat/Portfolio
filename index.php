@@ -10,11 +10,11 @@
             <h2 class="siteHeader-h2">Rochat Lise</h2>
         </div>
     </header>
-    <main class="index-height">
+    <main >
 <?php
         require_once("templates/aside.php");
 ?>
-        <section>
+        <section class="index-height">
             <div class="sectionMain">
                 <h2 class="sectionMain-h2">
                     <i class="fa-solid fa-angle-left"></i>
