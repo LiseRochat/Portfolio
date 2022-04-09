@@ -62,7 +62,7 @@ header nav ul li a {
 }
 /* ******************* H1 & H2 ******************* */
 .siteHeader {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,13 +192,14 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 10vh;
+    height: 20vh;
 }
 footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 20px;
 }
 footer ul li {
     padding: 20px 40px;
