@@ -20,13 +20,11 @@ body{
 header {
     height: 100vh;
 }
-a,
-i {
+a {
     color: var(--color1);
-    cursor: pointer;
+    
 }
-a:hover,
-i:hover {
+a:hover {
     color: var(--color2);
     transition: 0.2s;
 }
@@ -88,6 +86,19 @@ aside {
 aside ul li {
     font-size: 2em;
     text-align: center;
+}
+.aside-icones-hover:hover {
+    color: var(--color2);
+    animation: hover 1s infinite linear;
+    cursor: pointer;
+}
+@keyframes hover {
+    50% {
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 /* ******************* MAIN SECTION INDEX ******************* */
 main {
