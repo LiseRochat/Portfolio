@@ -204,3 +204,53 @@ footer ul li {
     padding: 20px 40px;
 }
 /* ******************* MEDIA QUERYS ******************* */
+@media screen and (max-width: 1135px) {
+    .siteHeader-h1 {
+        font-size: 8rem;
+    }
+}
+@media screen and (max-width: 910px) {
+    .siteHeader-h1 {
+        font-size: 5rem;
+        margin: 0 20px;
+    }
+    footer {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .siteHeader-h1 {
+        font-size: 3rem;
+    }
+    .index-height {
+        height: 100vh;
+    }
+    .sectionMainSkills-grid {
+        display: block;
+    }
+    .sectionMainSkills-grid h3 {
+        text-align: center;
+    }
+    .sectionMainSkills-grid ul li {
+        text-align: center;
+    }
+    footer {
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width: 488px) {
+    .siteHeader-h1 {
+        font-size: 3rem;
+    }
+    .siteHeader-h2 {
+        font-size: 1rem;
+    }
+    header nav ul li a {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    .index-height {
+        height: 110vh;
+    }
+
+}
