@@ -14,6 +14,19 @@
 <?php
         require_once("templates/aside.php");
 ?>
+        <section class="projectsSection">
+            <div class="projectsSection-img">
+                <img src="" alt="">
+            </div>
+            <div class="projectsSectionMousseHover">
+                <h2>Integration</h2>
+                <ul>
+                    <li></li>
+                </ul>
+                <a href="">En savoir plus</a>
+            </div>
+        </section>
+
     </main>
 <?php
     require_once("templates/footer.php");
