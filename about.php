@@ -35,10 +35,6 @@ require_once("templates/head.php");
                     <h3 class="sectionMain-h3 h3-weight-bold">Tour du Beaufortain</h3>
                     <p class="sectionMainp sectionMainp-margin">Passionnée par la <strong>randonnée itinérante</strong>, le trip de cet été est le <strong>Tour du Beaufortain</strong>. Grande Randonné de pays de 140 km, pour retrouver un sentiment de quiétude le temps d'une boucle au départ de Queige, petite commune de Savoie.<em> Promis je me nourrirait de produits locaux (beaufort,bière du mont blanc)</em>.</p>
                 </div>
-                <div class="sectionVacancies">
-                    <h3 class="sectionMain-h3 h3-weight-bold">Prise de conscience</h3>
-                    <p class="sectionMainp sectionMainp-margin">Le rôle du <strong>numérique</strong> dans le le combat du <strong>réchauffement climatique</strong> m'interroge. Par le design de mon portfolio j'ai voulu vous montrer un autre aspect de ma personnalité. Le design de mon <strong>portfolio</strong> est volontairement sobre mais répond malgrés tout au besoin. Et j'en suis plutot fier.<br></p>
-                </div>
                 <div class="sectionETC">
                     <p class="sectionMain-fontsize">...</p>
                 </div>
